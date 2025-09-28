@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Krishnakumar | Portfolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Navbar -->
+  <nav>
+    <div class="logo">Krishnakumar</div>
+    <ul>
+      <li><a href="#home" class="active">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#experience">Experience</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+    <div class="actions">
+      <button id="theme-toggle">🌙</button>
+      <a href="#" class="btn">Download Resume</a>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section id="home" class="hero banner">
+  <div class="hero-text">
+    <h1>Hi, I’m <span>Krishnakumar</span></h1>
+    <h2><span id="typed-text"></span></h2>
+    <p>I build scalable solutions using Ruby on Rails</p>
+    <div class="hero-buttons">
+      <a href="#projects" class="btn">View My Work</a>
+      <a href="#" class="btn btn-outline">Download Resume</a>
+    </div>
+  </div>
+</section>
+
+  <!-- About -->
+  <section id="about" class="reveal">
+    <h2>About Me</h2>
+    <p>
+      I’m a Ruby on Rails developer with experience in building scalable,
+      high-performance solutions for product-based companies.
+    </p>
+    <ul>
+      <li>✔ Backend-first mindset with strong Rails expertise</li>
+      <li>✔ Experience in designing APIs and integrating complex systems</li>
+      <li>✔ Focused on performance, scalability, and clean code</li>
+      <li>✔ Collaborating with cross-functional teams to bring products to life</li>
+    </ul>
+  </section>
+
+  <!-- Skills -->
+  <section id="skills" class="reveal">
+    <h2>Skills</h2>
+    <div class="skills-grid">
+        <div class="skill">Ruby on Rails</div>
+        <div class="skill">PostgreSQL</div>
+        <div class="skill">Java Spring Boot</div>
+        <div class="skill">Git</div>
+        <div class="skill">AWS</div>
+        <div class="skill">Azure</div>
+        <div class="skill">Docker</div>
+        <div class="skill">Agile / Scrum</div>
+    </div>
+    </section>
+
+
+  <!-- Projects -->
+  <section id="projects" class="reveal">
+    <h2>Projects</h2>
+    <div class="projects-grid">
+
+        <div class="project-card reveal">
+        <h3>Expense Management System</h3>
+        <p>Led team to onboard TataPower; implemented approval workflow and integrated prepaid card solutions.</p>
+        <span class="stack">Rails · PostgreSQL · Microservices</span>
+        </div>
+
+        <div class="project-card reveal">
+        <h3>Subscription & Payment System</h3>
+        <p>Built subscription model with dynamic role handling and Razorpay integration.</p>
+        <span class="stack">Rails · Razorpay API · Redis</span>
+        </div>
+
+        <div class="project-card reveal">
+        <h3>RupeeSack Mobile App</h3>
+        <p>Hybrid iOS/Android app with localized vendor search, deeplinking, and geolocation features.</p>
+        <span class="stack">Ruby on Rails · Node.js · DynamoDB</span>
+        </div>
+
+        <div class="project-card reveal">
+        <h3>Permit Approval Web App</h3>
+        <p>Developed APIs and workflows for permit request & approval system.</p>
+        <span class="stack">Rails · Docsplit · REST APIs</span>
+        </div>
+
+        <div class="project-card reveal">
+        <h3>Autobot (Rails Rumble)</h3>
+        <p>Award-winning code generator that builds and deploys complete REST apps with CI/CD.</p>
+        <span class="stack">Ruby on Rails · Heroku · CI/CD</span>
+        </div>
+
+    </div>
+    </section>
+
+
+  <!-- Experience -->
+  <section id="experience" class="reveal">
+  <h2>Experience</h2>
+  <div class="timeline">
+
+    <div class="timeline-item">
+      <div class="timeline-dot"></div>
+      <div class="timeline-content">
+        <h3>Lead Software Developer — Zaggle Prepaid Ocean Service Ltd, Hyderabad</h3>
+        <span class="date">Nov 2018 – Present</span>
+        <ul>
+          <li>Implemented SSO both as SP & iDP integrating multiple providers.</li>
+          <li>Led development team; onboarded TataPower for expense management system.</li>
+          <li>Built approval workflow system with rule engine & migrated monolith to microservices.</li>
+          <li>Implemented prepaid card portal, subscription model & payment gateway integrations.</li>
+          <li>Applied PCI DSS standards, optimized performance, and prevented DDOS attacks.</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="timeline-item">
+      <div class="timeline-dot"></div>
+      <div class="timeline-content">
+        <h3>Product Engineer — DAZTA Technologies LLP, Hyderabad</h3>
+        <span class="date">May 2017 – Oct 2018</span>
+        <ul>
+          <li>Developed scalable RoR web apps with DynamoDB & hybrid mobile apps (RupeeSack).</li>
+          <li>Integrated geolocation API, deeplinking, multilingual modules.</li>
+          <li>Worked with Apache Solr, Cassandra, Node.js for large-scale data and search.</li>
+          <li>Load-tested & optimized applications using Apache JMeter.</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="timeline-item">
+      <div class="timeline-dot"></div>
+      <div class="timeline-content">
+        <h3>Software Engineer — Cognitiveclouds Software Pvt Ltd, Bengaluru</h3>
+        <span class="date">Jul 2015 – Apr 2017</span>
+        <ul>
+          <li>Built web apps & APIs for permit approvals and inspections.</li>
+          <li>Integrated PDF-to-image module using Docsplit.</li>
+          <li>Created APIs for user management and inspection apps.</li>
+          <li>Worked on Spree Commerce integration for e-commerce website.</li>
+          <li>Automated deployments with Capistrano.</li>
+        </ul>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+
+
+  <!-- Contact -->
+  <section id="contact" class="reveal">
+    <h2>Contact Me</h2>
+    <div class="contact-links">
+      <a href="#">Email</a>
+      <a href="#">LinkedIn</a>
+      <a href="#">GitHub</a>
+    </div>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
